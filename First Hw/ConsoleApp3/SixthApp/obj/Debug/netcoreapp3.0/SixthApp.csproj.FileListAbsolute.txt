@@ -1,0 +1,11 @@
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/bin/Debug/netcoreapp3.0/SixthApp
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/bin/Debug/netcoreapp3.0/SixthApp.deps.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/bin/Debug/netcoreapp3.0/SixthApp.runtimeconfig.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/bin/Debug/netcoreapp3.0/SixthApp.runtimeconfig.dev.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/bin/Debug/netcoreapp3.0/SixthApp.dll
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/bin/Debug/netcoreapp3.0/SixthApp.pdb
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/obj/Debug/netcoreapp3.0/SixthApp.csprojAssemblyReference.cache
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/obj/Debug/netcoreapp3.0/SixthApp.AssemblyInfoInputs.cache
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/obj/Debug/netcoreapp3.0/SixthApp.AssemblyInfo.cs
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/obj/Debug/netcoreapp3.0/SixthApp.dll
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SixthApp/obj/Debug/netcoreapp3.0/SixthApp.pdb

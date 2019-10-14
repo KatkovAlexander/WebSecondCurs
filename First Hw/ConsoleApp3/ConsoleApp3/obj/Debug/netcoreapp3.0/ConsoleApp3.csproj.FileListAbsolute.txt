@@ -1,0 +1,11 @@
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/bin/Debug/netcoreapp3.0/ConsoleApp3
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/bin/Debug/netcoreapp3.0/ConsoleApp3.deps.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/bin/Debug/netcoreapp3.0/ConsoleApp3.runtimeconfig.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/bin/Debug/netcoreapp3.0/ConsoleApp3.runtimeconfig.dev.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/bin/Debug/netcoreapp3.0/ConsoleApp3.dll
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/bin/Debug/netcoreapp3.0/ConsoleApp3.pdb
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/obj/Debug/netcoreapp3.0/ConsoleApp3.csprojAssemblyReference.cache
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/obj/Debug/netcoreapp3.0/ConsoleApp3.AssemblyInfoInputs.cache
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/obj/Debug/netcoreapp3.0/ConsoleApp3.AssemblyInfo.cs
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/obj/Debug/netcoreapp3.0/ConsoleApp3.dll
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ConsoleApp3/obj/Debug/netcoreapp3.0/ConsoleApp3.pdb

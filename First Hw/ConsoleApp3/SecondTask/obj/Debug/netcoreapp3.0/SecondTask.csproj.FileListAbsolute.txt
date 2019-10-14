@@ -1,0 +1,11 @@
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/bin/Debug/netcoreapp3.0/SecondTask
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/bin/Debug/netcoreapp3.0/SecondTask.deps.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/bin/Debug/netcoreapp3.0/SecondTask.runtimeconfig.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/bin/Debug/netcoreapp3.0/SecondTask.runtimeconfig.dev.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/bin/Debug/netcoreapp3.0/SecondTask.dll
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/bin/Debug/netcoreapp3.0/SecondTask.pdb
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/obj/Debug/netcoreapp3.0/SecondTask.csprojAssemblyReference.cache
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/obj/Debug/netcoreapp3.0/SecondTask.AssemblyInfoInputs.cache
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/obj/Debug/netcoreapp3.0/SecondTask.AssemblyInfo.cs
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/obj/Debug/netcoreapp3.0/SecondTask.dll
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/SecondTask/obj/Debug/netcoreapp3.0/SecondTask.pdb

@@ -1,0 +1,11 @@
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/bin/Debug/netcoreapp3.0/ForthTask
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/bin/Debug/netcoreapp3.0/ForthTask.deps.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/bin/Debug/netcoreapp3.0/ForthTask.runtimeconfig.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/bin/Debug/netcoreapp3.0/ForthTask.runtimeconfig.dev.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/bin/Debug/netcoreapp3.0/ForthTask.dll
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/bin/Debug/netcoreapp3.0/ForthTask.pdb
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/obj/Debug/netcoreapp3.0/ForthTask.AssemblyInfoInputs.cache
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/obj/Debug/netcoreapp3.0/ForthTask.AssemblyInfo.cs
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/obj/Debug/netcoreapp3.0/ForthTask.dll
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/obj/Debug/netcoreapp3.0/ForthTask.pdb
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/ForthTask/obj/Debug/netcoreapp3.0/ForthTask.csprojAssemblyReference.cache

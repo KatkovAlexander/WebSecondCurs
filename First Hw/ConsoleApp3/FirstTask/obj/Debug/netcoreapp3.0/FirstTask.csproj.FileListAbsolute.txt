@@ -1,0 +1,11 @@
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/bin/Debug/netcoreapp3.0/FirstTask
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/bin/Debug/netcoreapp3.0/FirstTask.deps.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/bin/Debug/netcoreapp3.0/FirstTask.runtimeconfig.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/bin/Debug/netcoreapp3.0/FirstTask.runtimeconfig.dev.json
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/bin/Debug/netcoreapp3.0/FirstTask.dll
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/bin/Debug/netcoreapp3.0/FirstTask.pdb
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/obj/Debug/netcoreapp3.0/FirstTask.csprojAssemblyReference.cache
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/obj/Debug/netcoreapp3.0/FirstTask.AssemblyInfoInputs.cache
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/obj/Debug/netcoreapp3.0/FirstTask.AssemblyInfo.cs
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/obj/Debug/netcoreapp3.0/FirstTask.dll
+/Users/admin/WebSecondCurs/First HW/ConsoleApp3/FirstTask/obj/Debug/netcoreapp3.0/FirstTask.pdb

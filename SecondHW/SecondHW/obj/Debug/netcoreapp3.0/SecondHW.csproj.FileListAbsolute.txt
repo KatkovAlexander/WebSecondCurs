@@ -1,0 +1,11 @@
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/bin/Debug/netcoreapp3.0/SecondHW
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/bin/Debug/netcoreapp3.0/SecondHW.deps.json
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/bin/Debug/netcoreapp3.0/SecondHW.runtimeconfig.json
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/bin/Debug/netcoreapp3.0/SecondHW.runtimeconfig.dev.json
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/bin/Debug/netcoreapp3.0/SecondHW.dll
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/bin/Debug/netcoreapp3.0/SecondHW.pdb
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/obj/Debug/netcoreapp3.0/SecondHW.csprojAssemblyReference.cache
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/obj/Debug/netcoreapp3.0/SecondHW.AssemblyInfoInputs.cache
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/obj/Debug/netcoreapp3.0/SecondHW.AssemblyInfo.cs
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/obj/Debug/netcoreapp3.0/SecondHW.dll
+/Users/admin/WebSecondCurs/SecondHW/SecondHW/obj/Debug/netcoreapp3.0/SecondHW.pdb

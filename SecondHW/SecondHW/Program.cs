@@ -465,10 +465,6 @@ namespace SecondHW
                     }
                     
                 }
-                else if (mode == "080400")
-                {
-                    
-                }
                 else if (mode == "0")
                 {
                     Console.WriteLine("This is the end, my friend\n");

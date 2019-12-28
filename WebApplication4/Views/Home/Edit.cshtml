@@ -1,0 +1,40 @@
+﻿@model WebApplication4.Models.Product
+@{
+    ViewBag.Title = "Изменение товара";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2> Товар </h2>
+    <form method="post">
+        <fieldset>
+            @Html.HiddenFor(m => m.Id)
+            <p>
+                @Html.LabelFor(m => m.Category, "Название категории")
+                <br />
+                @Html.EditorFor(m => m.Category)
+                <br/>
+                @Html.LabelFor(m => m.Brand, "Название категории")
+                <br />
+                @Html.EditorFor(m => m.Brand)
+                <br/>
+                @Html.LabelFor(m => m.Collection, "Название категории")
+                <br />
+                @Html.EditorFor(m => m.Collection)
+                <br/>
+                @Html.LabelFor(m => m.ProductColor, "Название категории")
+                <br />
+                @Html.EditorFor(m => m.ProductColor)
+                <br/>
+                @Html.LabelFor(m => m.Amount, "Название категории")
+                <br />
+                @Html.EditorFor(m => m.Amount)
+               
+            </p>
+            <button type="submit" class="btn btn-light">
+                 <input type="submit" value="Изменить" class="btn btn-default"/>
+            </button>
+            <button type="button" class="btn btn-light">
+                <a href="~/Home/Index">Назад</a>
+            </button>
+        </fieldset>
+    </form>

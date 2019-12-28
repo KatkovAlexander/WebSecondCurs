@@ -1,0 +1,27 @@
+@model WebApplication4.Models.Product
+@{
+    ViewBag.Title = "Детали товара";
+}
+
+<table width="50%">
+    <tr>
+        <td align="center">
+            @Html.DisplayFor(item => item.Category)
+        </td>
+        <td align="center">
+            @Html.DisplayFor(item => item.Brand)
+        </td>
+        <td align="center">
+            @Html.DisplayFor(item => item.Collection)
+        </td>
+        <td align="center">
+            @Html.DisplayFor(item => item.ProductColor)
+        </td>
+        <td align="center">
+            @Html.DisplayFor(item => item.Amount)
+        </td>
+    </tr>
+</table>
+<button type="button" class="btn btn-light">
+    <a href="~/Home/Index">Назад</a>
+</button>

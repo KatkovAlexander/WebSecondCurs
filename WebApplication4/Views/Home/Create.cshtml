@@ -1,0 +1,34 @@
+﻿@model WebApplication4.Models.Product
+@{
+    ViewBag.Title = "Добавление товара";
+}
+<form asp-action="create" asp-controller="home">
+    <p> Add  product</p>
+    <div class="form-group">
+        <label asp-for="Category" class="control-label">Category</label>
+        <input type="text" asp-for="Category" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Brand" class="control-label">Brand</label>
+        <input type="text" asp-for="Brand" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Collection" class="control-label">Collection</label>
+        <input type="text" asp-for="Collection" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="ProductColor" class="control-label">Product Color</label>
+        <input type="text" asp-for="ProductColor" class="form-control"/>
+    </div>
+    <div class="form-group">
+        <label asp-for="Amount" class="control-label">Amount</label>
+        <input type="number" asp-for="Amount" class="form-control"/>
+    </div>
+    
+    <button type="submit" class="btn btn-light">
+        <input type="submit" value="Добавить" class="btn btn-default"/>
+    </button>
+    <button type="button" class="btn btn-light">
+        <a href="~/Home/Index">Назад</a>
+    </button>
+</form>

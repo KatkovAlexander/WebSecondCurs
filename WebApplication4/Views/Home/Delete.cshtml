@@ -1,0 +1,22 @@
+﻿@model WebApplication4.Models.Product
+@{
+    ViewBag.Title = "Удаление товара";
+}
+<h2>Удаление товара</h2>
+<p> вы действительно хотите удалить "
+@Html.DisplayFor(model => model.Category)
+@Html.DisplayFor(model => model.Brand)
+@Html.DisplayFor(model => model.Collection)
+@Html.DisplayFor(model => model.ProductColor)
+"?
+</p>
+<br/>
+@using (Html.BeginForm())
+{
+    <button type="submit" class="btn btn-light">
+        <input type="submit" value="Удалить" class="btn btn-default"/>
+    </button>
+    <button type="button" class="btn btn-light">
+        <a href="~/Home/Index">Назад</a>
+    </button>
+}

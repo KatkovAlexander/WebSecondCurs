@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6e9a0394-5fc4-403a-874f-f59520f732a1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fifthhw/Models/ApplicationContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fifthhw/Models/Brand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fifthhw/Models/FilterViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fifthhw/Models/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fifthhw/Models/SortState.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Fifthhw/Models/SortViewModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WebApplication4/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First Hw/ConsoleApp3/.idea/.idea.ConsoleApp3/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../First Hw/ConsoleApp3/.idea/.idea.ConsoleApp3/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First Hw/ConsoleApp3/FifthApp/obj/Debug/netcoreapp3.0/FifthApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../First Hw/ConsoleApp3/FifthApp/obj/Debug/netcoreapp3.0/FifthApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ForthTask/obj/Debug/netcoreapp3.0/ForthTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ForthTask/obj/Debug/netcoreapp3.0/ForthTask.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First Hw/ConsoleApp3/SixthApp/obj/Debug/netcoreapp3.0/SixthApp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../First Hw/ConsoleApp3/SixthApp/obj/Debug/netcoreapp3.0/SixthApp.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/bin/Debug/netcoreapp3.0/ThirdTask.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/bin/Debug/netcoreapp3.0/ThirdTask.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/bin/Debug/netcoreapp3.0/ThirdTask.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/bin/Debug/netcoreapp3.0/ThirdTask.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/obj/Debug/netcoreapp3.0/ThirdTask.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/obj/Debug/netcoreapp3.0/ThirdTask.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/obj/Debug/netcoreapp3.0/ThirdTask.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/obj/Debug/netcoreapp3.0/ThirdTask.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/obj/Debug/netcoreapp3.0/ThirdTask.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../First Hw/ConsoleApp3/ThirdTask/obj/Debug/netcoreapp3.0/ThirdTask.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication4/Models/ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication4/Models/ApplicationContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication4/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication4/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication4/obj/Debug/netcoreapp3.0/WebApplication4.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication4/obj/Debug/netcoreapp3.0/WebApplication4.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication4/obj/Debug/netcoreapp3.0/WebApplication4.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication4/obj/Debug/netcoreapp3.0/WebApplication4.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication4/obj/WebApplication4.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication4/obj/WebApplication4.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication4/obj/WebApplication4.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication4/obj/WebApplication4.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication4/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication4/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebApplication4/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../WebApplication4/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Models/Brand.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Models/Category.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Models/Collection.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Models/Manager.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Models/Product.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/SampleData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/hw4.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../hw4/hw4/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thiiirdhw" beforeDir="false" afterPath="$PROJECT_DIR$/../thiiirdhw" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Fifthhw/Models/Product.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Fifthhw/Models/FilterViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Fifthhw/Models/Brand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Fifthhw/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Fifthhw/Models/SortState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Fifthhw/Models/SortViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Fifthhw/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Fifthhw/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Fifthhw/Models/ApplicationContext.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Fifthhw/Models/ApplicationContext.cs" />
+        <option value="$PROJECT_DIR$/Fifthhw/Startup.cs" />
+        <option value="$PROJECT_DIR$/Fifthhw/Models/Brand.cs" />
+        <option value="$PROJECT_DIR$/Fifthhw/Models/Product.cs" />
+        <option value="$PROJECT_DIR$/Fifthhw/Models/FilterViewModel.cs" />
+        <option value="$PROJECT_DIR$/Fifthhw/Models/SortState.cs" />
+        <option value="$PROJECT_DIR$/Fifthhw/Models/SortViewModel.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea/.idea.Fifthhw/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WDCQvmsacEzoWdPk1fys1XAyYd" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="AndroidSettingsPageId" />
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.Fifthhw">
+    <configuration name="Fifthhw" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Fifthhw/Fifthhw.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="Fifthhw" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Fifthhw: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/Fifthhw/Fifthhw.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6e9a0394-5fc4-403a-874f-f59520f732a1" name="Default Changelist" comment="" />
+      <created>1578674765346</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578674765346</updated>
+      <workItem from="1578674767421" duration="1820000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

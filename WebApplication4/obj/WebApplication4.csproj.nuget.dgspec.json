@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/admin/Projects/WebApplication4/WebApplication4/WebApplication4.csproj": {}
+    "/Users/admin/WebSecondCurs/WebApplication4/WebApplication4.csproj": {}
   },
   "projects": {
-    "/Users/admin/Projects/WebApplication4/WebApplication4/WebApplication4.csproj": {
+    "/Users/admin/WebSecondCurs/WebApplication4/WebApplication4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/admin/Projects/WebApplication4/WebApplication4/WebApplication4.csproj",
+        "projectUniqueName": "/Users/admin/WebSecondCurs/WebApplication4/WebApplication4.csproj",
         "projectName": "WebApplication4",
-        "projectPath": "/Users/admin/Projects/WebApplication4/WebApplication4/WebApplication4.csproj",
+        "projectPath": "/Users/admin/WebSecondCurs/WebApplication4/WebApplication4.csproj",
         "packagesPath": "/Users/admin/.nuget/packages/",
-        "outputPath": "/Users/admin/Projects/WebApplication4/WebApplication4/obj/",
+        "outputPath": "/Users/admin/WebSecondCurs/WebApplication4/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

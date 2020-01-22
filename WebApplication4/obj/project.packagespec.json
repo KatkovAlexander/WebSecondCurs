@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/admin/Projects/WebApplication4/WebApplication4/WebApplication4.csproj",
+    "projectUniqueName": "/Users/admin/WebSecondCurs/WebApplication4/WebApplication4.csproj",
     "projectName": "WebApplication4",
-    "projectPath": "/Users/admin/Projects/WebApplication4/WebApplication4/WebApplication4.csproj",
-    "outputPath": "/Users/admin/Projects/WebApplication4/WebApplication4/obj/",
+    "projectPath": "/Users/admin/WebSecondCurs/WebApplication4/WebApplication4.csproj",
+    "outputPath": "/Users/admin/WebSecondCurs/WebApplication4/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"

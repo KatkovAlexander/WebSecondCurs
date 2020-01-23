@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Список пользователей</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Список пользователей</h2>
+    <form name="userForm">
+        <input type="hidden" name="id" value="0" />
+        <div class="form-group col-md-5">
+            <label for="Category">Category:</label>
+            <input class="form-control" name="Category" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="Brand">Brand:</label>
+            <input class="form-control" name="Brand" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="Amount">Amount:</label>
+            <input class="form-control" name="Amount" type="number" />
+        </div>
+        <div class="panel-body">
+            <button type="submit" id="submit" class="btn btn-primary">Сохранить</button>
+            <a id="reset" class="btn btn-primary">Сбросить</a>
+        </div>
+    </form>
+    <table class="table table-condensed table-striped  col-md-6">
+        <thead><tr><th>Id</th><th>Category</th><th>Brand</th><th>Amount</th><th></th></tr></thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script>
+        // Получение всех пользователей
+        async function GetAll() {
+            // отправляет запрос и получаем ответ
+            const response = await fetch("/api/todo", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            // если запрос прошел нормально
+            if (response.ok === true) {
+                // получаем данные
+                const users = await response.json();
+                let rows = document.querySelector("tbody"); 
+                users.forEach(user => {
+                    // добавляем полученные элементы в таблицу
+                    rows.append(row(user));
+                });
+            }
+        }
+        // Получение одного пользователя
+        async function GetById(id) {
+            const response = await fetch("/api/todo/" + id, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const user = await response.json();
+                const form = document.forms["userForm"];
+                form.elements["id"].value = user.id;
+                form.elements["Category"].value = user.category;
+                form.elements["Brand"].value = user.brand;
+                form.elements["Amount"].value = user.amount;
+            }
+        }
+        // Добавление пользователя
+        async function CreateUser( userCategory, userBrand, userAmount) {
+ 
+            const response = await fetch("api/todo", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    Category: userCategory,
+                    Brand: userBrand,
+                    Amount: parseInt(userAmount, 10)
+                })
+            });
+            if (response.ok === true) {
+                const user = await response.json();
+                reset();
+                document.querySelector("tbody").append(row(user));
+            }
+        }
+        // Изменение пользователя
+        async function EditUser(userId, userCategory, userBrand, userAmount) {
+            const response = await fetch("api/todo", {
+                method: "PUT",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    Id: parseInt(userId, 10),
+                    Category: userCategory,
+                    Brand: userBrand,
+                    Amount: parseInt(userAmount, 10)
+                })
+            });
+            if (response.ok === true) {
+                const user = await response.json();
+                reset();
+                document.querySelector("tr[data-rowid='" + user.id + "']").replaceWith(row(user));
+            }
+        }
+        // Удаление пользователя
+        async function DeleteUser(id) {
+            const response = await fetch("/api/todo/" + id, {
+                method: "DELETE",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const user = await response.json();
+                document.querySelector("tr[data-rowid='" + user.id + "']").remove();
+            }
+        }
+ 
+        // сброс формы
+        function reset() {
+            const form = document.forms["userForm"];
+            form.reset();
+            form.elements["id"].value = 0;
+        }
+        // создание строки для таблицы
+        function row(user) {
+ 
+            const tr = document.createElement("tr");
+            tr.setAttribute("data-rowid", user.Id);
+ 
+            const idTd = document.createElement("td");
+            idTd.append(user.id);
+            tr.append(idTd);
+ 
+            const CategoryTd = document.createElement("td");
+            CategoryTd.append(user.category);
+            tr.append(CategoryTd);
+ 
+            const BrandTd = document.createElement("td");
+            BrandTd.append(user.brand);
+            tr.append(BrandTd);
+
+            const AmountTd = document.createElement("td");
+            AmountTd.append(user.amount);
+            tr.append(AmountTd);
+             
+            const linksTd = document.createElement("td");
+ 
+            const editLink = document.createElement("a");
+            editLink.setAttribute("data-id", user.id);
+            editLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            editLink.append("Изменить");
+            editLink.addEventListener("click", e => {
+ 
+                e.preventDefault();
+                GetById(user.id);
+            });
+            linksTd.append(editLink);
+ 
+            const removeLink = document.createElement("a");
+            removeLink.setAttribute("data-id", user.id);
+            removeLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            removeLink.append("Удалить");
+            removeLink.addEventListener("click", e => {
+ 
+                e.preventDefault();
+                DeleteUser(user.id);
+            });
+ 
+            linksTd.append(removeLink);
+            tr.appendChild(linksTd);
+ 
+            return tr;
+        }
+        // сброс значений формы
+        document.getElementById("reset").click(function (e) {
+ 
+            e.preventDefault();
+            reset();
+        })
+ 
+        // отправка формы
+        document.forms["userForm"].addEventListener("submit", e => {
+            e.preventDefault();
+            const form = document.forms["userForm"];
+            const id = form.elements["id"].value;
+            const Category = form.elements["Category"].value;
+            const Brand = form.elements["Brand"].value;
+            const Amount = form.elements["Amount"].value;
+            if (id == 0)
+                CreateUser(Category, Brand, Amount);
+            else
+                EditUser(id, Category, Brand, Amount);
+        });
+ 
+        // загрузка пользователей
+        GetAll();
+ 
+    </script>
+</body>
+</html>
